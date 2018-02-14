@@ -1,18 +1,32 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Todos from './Components/Todos';
+import TodoForm from './Components/TodoForm';
+//import $ from '../node_modules/jquery/dist/jquery';
 import './App.css';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    // this.state = {
+    //   todos: []
+    // }
+  }
+
+  componentWillMount() {
+
+  }
+
+  componentDidMount() {
+
+  }
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+      <div className="">
+        <header className="App App-header">
+          <h1 className="App-title">NorthOne ToDo</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <small id="subTitle" className="form-text text-muted App">Todo List Manager v0.01 for NorthOne</small>
+        <Todos />
       </div>
     );
   }

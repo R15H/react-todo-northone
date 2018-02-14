@@ -6,7 +6,10 @@ npm install --save uuid // for uuid as key in key value pairs of todos
 npm install --save bootstrap // for UI look and feel
 npm install --save jquery // required for bootstrap & jsonplaceholder
 npm install --save popper.js // required by bootstrap
-npm install --save jsonplaceholder // for accessing fake json 
+npm install --save jsonplaceholder // for accessing fake json
+npm install --save-dev json-server // since jsonplaceholder did not have the right data Structure
+random json pulled from https://www.mockaroo.com
+
 
 
 Below you will find some information on how to perform common tasks.<br>

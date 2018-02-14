@@ -1,0 +1,68 @@
+{
+  "todos": [
+    {
+      "id": "de5aade7-89b3-4a2d-a8b1-3ffca9c366fc",
+      "title": "Monitored upward-trending monitoring",
+      "description": "grow open-source web services",
+      "duedate": "12/14/2017",
+      "status": "Pending",
+      "author": "Luigi Moir"
+    },
+    {
+      "id": "ea26bcb4-f3cf-420d-9476-130587a02213",
+      "title": "Synergized user-facing toolset",
+      "description": "streamline cross-platform methodologies",
+      "duedate": "6/8/2017",
+      "status": "In Progress",
+      "author": "Tobias Archbald"
+    },
+    {
+      "id": "3b3ebe4c-5ac0-4f79-ab78-0e46bae18965",
+      "title": "Advanced high-level infrastructure",
+      "description": "whiteboard strategic systems",
+      "duedate": "6/18/2017",
+      "status": "Pending",
+      "author": "Blanche Rizzardini"
+    },
+    {
+      "id": "353f5d60-51b6-4ef7-89ab-1931d247b769",
+      "title": "Versatile multi-tasking knowledge user",
+      "description": "aggregate cutting-edge mindshare",
+      "duedate": "12/7/2017",
+      "status": "In Progress",
+      "author": "Abdul Pettko"
+    },
+    {
+      "id": "d7535eda-4fb5-4151-b1dd-8727d37c2f1e",
+      "title": "Balanced zero administration methodology",
+      "description": "seize revolutionary infrastructures",
+      "duedate": "7/7/2017",
+      "status": "Pending",
+      "author": "Tito Pirkis"
+    },
+    {
+      "id": "da6c6e12-7c16-42a3-b952-72bf1e40eacc",
+      "title": "Multi-tiered solution-oriented leverage",
+      "description": "whiteboard sexy bandwidth",
+      "duedate": "6/18/2017",
+      "status": "Pending",
+      "author": "Benni MacWhirter"
+    },
+    {
+      "id": "fc57af04-0cab-43dd-be93-578d5e290cd2",
+      "title": "Robust didactic toolset",
+      "description": "repurpose best-of-breed portals",
+      "duedate": "4/19/2017",
+      "status": "Pending",
+      "author": "Cassi Dowty"
+    },
+    {
+      "id": "c7cdec40-e782-4b1f-96e4-e330984d970e",
+      "title": "Intuitive contextually-based conglomeration",
+      "description": "leverage mission-critical content",
+      "duedate": "5/5/2017",
+      "status": "Pending",
+      "author": "Arturo Sutor"
+    }
+  ]
+}

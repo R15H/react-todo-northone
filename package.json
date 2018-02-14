@@ -13,9 +13,12 @@
     "uuid": "^3.2.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start | json-server --watch db.json",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test --env=jsdom | json-server --watch db.json",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "json-server": "^0.12.1"
   }
 }
