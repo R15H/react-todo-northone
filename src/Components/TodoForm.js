@@ -69,7 +69,7 @@ class TodoForm extends Component {
           <form className="todo-form" onSubmit={this.handleSubmit}>
             <div className="form-row">
               <div className="col">
-                <input type="text" name="title" value={this.state.title} className="form-control" id="todo.title" aria-describedby="Todo Title" placeholder="Todo Title"/>
+                <input type="text" name="title" className="form-control" id="todo.title" aria-describedby="Todo Title" placeholder="Todo Title"/>
               </div>
 
               <div className="col">

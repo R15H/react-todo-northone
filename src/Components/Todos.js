@@ -46,14 +46,14 @@ class Todos extends Component {
   }
 
   handleRemove(id) {
-   console.log("incoming id = "+id);
+   //console.log("incoming id = "+id);
    var old_state = this.state.todos;
-   console.log("old_State");
-   console.log(old_state);
+   //console.log("old_State");
+   //console.log(old_state);
    var index_of = old_state.map((el) => el.id).indexOf(id);
    var new_state = old_state.splice(index_of, 1);
-   console.log("new_state object that is removed");
-   console.log(new_state);
+   //console.log("new_state object that is removed");
+   //console.log(new_state);
    // set to the array which has been spliced
    this.setState({todos: old_state});
   }
