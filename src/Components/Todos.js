@@ -40,6 +40,11 @@ class Todos extends Component {
     });
   }
 
+  handleAdd(todo) {
+    console.log("in handle add for id " + todo.id + " and title "+todo.title );
+
+  }
+
   handleRemove(id) {
    console.log("incoming id = "+id);
    var old_state = this.state.todos;
@@ -67,7 +72,7 @@ class Todos extends Component {
     }
     return (
       <div>
-      <TodoForm />
+      <TodoForm handleAdd={this.handleAdd.bind(this)}/>
       <div className="container">
       <table className="table table-striped">
         <thead>
