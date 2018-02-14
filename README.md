@@ -2,6 +2,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 ## Following commands were fired for dependency installs
+```
 npm install --save uuid // for uuid as key in key value pairs of todos
 npm install --save bootstrap // for UI look and feel
 npm install --save jquery // required for bootstrap & jsonplaceholder
@@ -9,6 +10,7 @@ npm install --save popper.js // required by bootstrap
 npm install --save jsonplaceholder // for accessing fake json
 npm install --save-dev json-server // since jsonplaceholder did not have the right data Structure
 random json pulled from https://www.mockaroo.com
+```
 
 
 
